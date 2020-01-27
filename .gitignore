@@ -68,3 +68,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Log
+log/
+
+# Secrets
+api/development/godaddy.ini
