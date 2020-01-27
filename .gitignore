@@ -74,3 +74,6 @@ log/
 
 # Secrets
 api/development/godaddy.ini
+
+# PyCharm
+.idea/
