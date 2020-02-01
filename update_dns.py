@@ -48,7 +48,9 @@ class Logger:
         self._logger = logging.getLogger('godaddy')
         self._logger.addHandler(handler)
         self._logger.setLevel(logging.DEBUG)
-        self._setup_http_debug()
+
+        # For debug only
+        # self._setup_http_debug()
 
     def info(self, message) -> None:
         self._logger.info(message)
@@ -115,10 +117,7 @@ class GoDaddyConnector:
         }
 
     def _build_new_dns_info(self, target_ip: str):
-        return [{
-            'data': target_ip,
-            'ttl': 3600
-        }]
+        return '[{ "data": "%s" }]' % target_ip
 
 
 class IpUtils:
