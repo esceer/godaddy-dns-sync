@@ -117,7 +117,7 @@ class GoDaddyConnector:
         }
 
     def _build_new_dns_info(self, target_ip: str):
-        return '[{ "data": "%s" }]' % target_ip
+        return '[{ "data": "%s", "ttl": 3600 }]' % target_ip
 
 
 class IpUtils:
