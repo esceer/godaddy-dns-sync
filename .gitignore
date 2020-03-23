@@ -73,6 +73,8 @@ venv.bak/
 log/
 
 # Secrets
+api/development/api-key.dev
+api/development/api-secret.dev
 api/development/godaddy.ini
 
 # PyCharm
