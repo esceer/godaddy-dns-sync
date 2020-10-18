@@ -1,8 +1,8 @@
 import sys
 
-from src.config import Config, Logger
-from src.utils import IpUtils
-from src.web_connector import GoDaddyConnector
+from config import Config, Logger
+from utils import IpUtils
+from web_connector import GoDaddyConnector
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

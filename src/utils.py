@@ -1,7 +1,7 @@
 import re
 import requests
 
-from src.config import Config, Logger
+from config import Config, Logger
 
 
 class IpUtils:

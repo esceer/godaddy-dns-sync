@@ -1,7 +1,7 @@
 import requests
 
-from src.config import Config, Logger
-from src.utils import IpUtils
+from config import Config, Logger
+from utils import IpUtils
 
 
 class GoDaddyConnector:
